@@ -5,8 +5,6 @@
       <change beforePath="$USER_HOME$/demo/moviegood/src/db.sqlite3" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/db.sqlite3" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/urls.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" afterDir="false" />
@@ -16,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/journal/WiredTigerLog.0000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
           <entry key="dummy" value="12" />
           <entry key="html" value="126" />
           <entry key="md" value="12" />
-          <entry key="py" value="1295" />
+          <entry key="py" value="1430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -52,7 +51,7 @@
           <entry key="HTML" value="126" />
           <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1295" />
+          <entry key="Python" value="1430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,14 +78,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="371">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1550252784525" expanded="true" signature="512:517" ph="..." />
+                <marker date="1550254840834" expanded="true" signature="512:517" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,7 +108,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommend/templates/recommend/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -193,7 +192,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Userrating</find>
-      <find>s</find>
       <find>my</find>
       <find>normalizeRatings</find>
       <find>flattenParams</find>
@@ -203,6 +201,7 @@
       <find>X</find>
       <find>Y</find>
       <find>cgradfun</find>
+      <find>s</find>
     </findStrings>
     <replaceStrings>
       <replace>normalize</replace>
@@ -399,8 +398,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,7 +414,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -627,16 +627,6 @@
     <entry file="file://$PROJECT_DIR$/recommend/templates/recommend/login.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommend/templates/recommend/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -681,17 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1550252784525" expanded="true" signature="512:517" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommend/templates/recommend/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -703,6 +682,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1550254840834" expanded="true" signature="512:517" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

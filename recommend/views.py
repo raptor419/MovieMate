@@ -22,7 +22,7 @@ def recommend(request):
     if not request.user.is_active:
         raise Http404
     df = pd.DataFrame(list(UserRating.objects.all().values()))
-    print(df,file=sys.stderr)
+    print(df, file=sys.stderr)
     nu = df.user.unique().shape[0]
     current_user_id = request.user.id
     # if new user not rated any movie
@@ -49,7 +49,14 @@ def recommend(request):
     print(pred_idxs_sorted)
     # preserved = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(pred_idxs_sorted)])
     # print(preserved)
+    pred_idxs_sorted_list = list(pred_idxs_sorted)
+    pred_idxs_sorted_dict = dict()
+    print(pred_idxs_sorted_list)
+    for i in range(len(pred_idxs_sorted_list)):
+        print(pred_idxs_sorted_list[i],i)
+        pred_idxs_sorted_dict[pred_idxs_sorted_list[i]] = i
     movie_list = list(Movie.objects.filter(id__in=pred_idxs_sorted, ))
+    movie_list = sorted(movie_list, key=lambda x: pred_idxs_sorted_dict[x.id])
     return render(request, 'recommend/recommend.html', {'movie_list': movie_list})
     # return render(request, 'recommend/recommend.html', {'movie_list': None})
 
@@ -75,7 +82,7 @@ def detail(request, movie_id):
     if request.method == "POST":
         rate = request.POST['rating']
         ratingObject = UserRating()
-        ratingObject.hashid = str(request.user.id)+"_"+str(movies.id)
+        ratingObject.hashid = str(request.user.id) + "_" + str(movies.id)
         ratingObject.user = str(request.user.id)
         ratingObject.movie = str(movies.id)
         ratingObject.rating = rate
