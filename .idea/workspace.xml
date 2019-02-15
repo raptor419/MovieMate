@@ -6,8 +6,10 @@
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/urls.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="html" value="126" />
-          <entry key="md" value="1139" />
+          <entry key="md" value="1272" />
           <entry key="py" value="1430" />
         </counts>
       </usages-collector>
@@ -43,7 +45,7 @@
         <counts>
           <entry key="Bash" value="4" />
           <entry key="HTML" value="126" />
-          <entry key="Markdown" value="1135" />
+          <entry key="Markdown" value="1268" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="1430" />
         </counts>
@@ -89,8 +91,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="47" column="120" selection-start-line="47" selection-start-column="120" selection-end-line="47" selection-end-column="120" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="130" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
               </first_editor>
               <second_editor />
             </state>
@@ -700,8 +702,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="530">
-            <caret line="47" column="120" selection-start-line="47" selection-start-column="120" selection-end-line="47" selection-end-column="120" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="130" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
           </first_editor>
           <second_editor />
         </state>

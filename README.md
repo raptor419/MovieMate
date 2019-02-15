@@ -13,7 +13,7 @@ python manage.py runserver
 ## Algorithm
 We choose to use Matrix Factorization Method
 ### Matrix Factorization  
-K in the problem statement is dynamic in our usecase
+K in the problem statement is dynamic in our usecase, i.e it changes according to no of movies rates and alogrithms starts working from the first movie rated by the user
 
 ### Web scraping
 Done using bs4
