@@ -16,7 +16,7 @@ We choose to use Matrix Factorization Method
 K in the problem statement is dynamic in our usecase, i.e it changes according to no of movies rates and alogrithms starts working from the first movie rated by the user
 
 ### Web scraping
-Done using bs4
+Done using bs4  
 To webscrape MovieLens Small Dataset
 ```bash
 python scrape.py
@@ -32,13 +32,13 @@ Though it is not optimal.
 
 Login using App user credentials, rate movies and get recommendations
 
-###App User Details
+### App User Details
 Usernames:  
 1,2,3  
 Password for all:   
 1password
 
-###Django Superuser Details  
+### Django Superuser Details  
 username: admin  
 password: 1aaaaa1  
 
