@@ -15,20 +15,20 @@
 	font-weight: 700;
 }
 .navbar-inverse .navbar-brand{
-	color:#00bcd4;
+	color:#7dce94;
 }
 .navbar-inverse .navbar-nav>li>a{
-		color: #00bcd4;	
+		color: #7dce94;
 }
 h2{
 	margin-left: 20px;
 }
 
 #social-fb:hover {
-     color: #3B5998;
+     color: #445599;
  }
  #social-tw:hover {
-     color: #4099FF;
+     color: #4499FF;
  }
 
  #social-em:hover {
@@ -42,6 +42,8 @@ h2{
 }
 html, body {
     height: 100%;
+    background-color: #3d3d3f;
+    color: #4CAF50;
 }
 .wrapper {
     min-height: 100%;

@@ -5,9 +5,15 @@
       <change beforePath="$USER_HOME$/demo/moviegood/src/db.sqlite3" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/db.sqlite3" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/urls.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-5-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-5-4239910545418152729.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend/static/web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/static/web/css/base.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="37" />
           <entry key="dummy" value="12" />
           <entry key="html" value="126" />
           <entry key="md" value="1279" />
@@ -42,6 +49,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="4" />
+          <entry key="CSS" value="37" />
           <entry key="HTML" value="126" />
           <entry key="Markdown" value="1275" />
           <entry key="PLAIN_TEXT" value="12" />
@@ -50,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="html" value="12" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
@@ -60,7 +68,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="12" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
@@ -85,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -93,6 +101,15 @@
                 <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommend/static/web/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -123,15 +140,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommend/templates/recommend/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="91" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -217,6 +225,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -239,6 +248,7 @@
         <option value="$PROJECT_DIR$/recommend/matrixfactor.py" />
         <option value="$PROJECT_DIR$/recommend/views.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/recommend/static/web/css/base.css" />
       </list>
     </option>
   </component>
@@ -270,6 +280,27 @@
               <item name="moviemate" type="b2602c69:ProjectViewProjectNode" />
               <item name="moviemate" type="462c0819:PsiDirectoryNode" />
               <item name="recommend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moviemate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moviemate" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moviemate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moviemate" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moviemate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moviemate" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moviemate" type="b2602c69:ProjectViewProjectNode" />
@@ -401,7 +432,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,11 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/static/web/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommend/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -704,6 +730,13 @@
             <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/static/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
         </state>
       </provider>
     </entry>
