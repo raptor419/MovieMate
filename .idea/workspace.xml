@@ -6,19 +6,8 @@
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/recommendation.py" afterDir="false" />
       <change beforePath="$USER_HOME$/demo/moviegood/src/web/urls.py" beforeDir="false" afterPath="$USER_HOME$/demo/moviegood/src/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-1059-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-1059-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-1092-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-1092-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-4-4239910545418152729.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2019-02-14T02-54-47Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-1093-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-1093-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-1094-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-1094-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-1095-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-1095-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-5-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-5-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-6-4239910545418152729.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,15 +35,15 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="html" value="126" />
-          <entry key="md" value="390" />
+          <entry key="md" value="491" />
           <entry key="py" value="1430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="3" />
+          <entry key="Bash" value="4" />
           <entry key="HTML" value="126" />
-          <entry key="Markdown" value="387" />
+          <entry key="Markdown" value="487" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="1430" />
         </counts>
@@ -100,8 +89,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -412,7 +401,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +415,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18554217" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -711,8 +700,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
