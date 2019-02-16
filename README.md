@@ -6,7 +6,7 @@ MovieMate is a Django Movie Recommender System Webapp using Matrix Factorization
 ```bash
 git clone https://github.com/raptor419/moviemate.git
 mondgodb/bin/mongod --dbpath ./mondgodb/bin/mongod/data/
-source activate venv/bin/activate
+source venv/bin/activate
 python manage.py runserver
 ```
 
